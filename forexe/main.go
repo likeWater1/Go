@@ -46,11 +46,11 @@ func main() {
 	for a := 1; a <= 3; a++ {
 		for b := 1; b <= 3; b++ {
 			if b%2 == 0 {
-				fmt.Printf("%d\n", b)
+				fmt.Printf("%d\n", b)\\输出2
 				break
 			}
-			fmt.Printf("%d\n", b)
+			fmt.Printf("%d\n", b)\\输出1
 		}
-		fmt.Printf("%d\n", b)
+		fmt.Printf("%d\n", b)\\输出0
 	}
 }
